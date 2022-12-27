@@ -6,7 +6,7 @@ import HeaderOptions from "./HeaderOptions";
 
 const Header = () => {
   const router = useRouter();
-  const searchInputRef = useRef(null);
+  const searchInputRef = useRef("");
   const term = searchInputRef.current.value;
   const [searchTerm, setSearchTerm] = useState(term);
 
